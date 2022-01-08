@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+nav ul li:hover{
+  background: rgb(160, 156, 156);
+}
+
+nav ul li:hover > a{
+  color: black;
+} 
+
+.fas {
+  color: white;
+}
+
+nav .red i:hover {
+background-color: red;
+}
+
+.search:hover{
+  background-color: rgb(228, 99, 99);
+}
+
+.fa-search {
+  padding: 20px;
+}
+
+header {
+  height: 100vh;
+  background: url(../img/la.jpg) no-repeat center center/cover;
+}
+
+.title {
+  height: 90vh;
+  color: white;
+  font-family:Arial;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: flex-end;
+}
